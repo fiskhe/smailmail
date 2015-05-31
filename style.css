@@ -1,0 +1,98 @@
+h1 {
+  text-align: center;
+  font-size: 4em;
+  font-family: monospace;
+}
+
+#comic {
+	width: 95%;
+	display: block;
+	margin: 0 auto;
+}
+
+#menu {
+	/*width: 370px;*/
+	/*height: 50px;*/
+	text-align: center;
+	/*background-color: orange;*/
+  	/*margin: 0 auto;*/
+}
+
+.tab {
+	display: inline-block;
+	text-align: center;
+	/*margin: top, right, left, bottom*/
+	margin: 0 30px 20px 30px;
+	/*width: 100px;*/
+	font-size: 1.5em;
+	/*background-color: blue;*/
+	border-bottom: 2px solid white;
+}
+
+.tab:hover {
+	border-bottom: 2px solid black;
+}
+
+ul {
+	/*yeah I don't know why but web browsers add this extra 40px (1em)*/
+	/*this is the only way for this to be centered or something*/
+	margin-left: -40px;
+}
+
+#title {
+	font-size: 1.5em;
+}
+
+#info {
+	position: relative;	
+	width: 45%;
+	text-align: left;
+	margin-right: 5%;
+	/*font-family: ;*/
+}
+
+#nav {
+	text-align: center;
+	/*width: 600px;*/
+	/*margin: 0 auto;*/
+
+}
+
+.nav_item {
+	display: inline-block;
+	text-align: center;
+	margin: 10px;
+	font-size: 2em;
+	width: 75px;
+	/*background-color: cadetblue;*/
+}
+
+.nav_left {
+	border-left: 2px dotted white;
+}
+
+.nav_right {
+	border-right: 2px dotted white;
+}
+
+.nav_left:hover {
+	border-left-color: black;
+	/*margin-left:-10px;*/
+}
+
+.nav_right:hover {
+	border-right-color: black;
+	/*margin-left: 20px;*/
+}
+
+li {
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
