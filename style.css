@@ -1,13 +1,20 @@
-h1 {
-  text-align: center;
-  font-size: 4em;
-  font-family: monospace;
+li {
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
 }
 
-#comic {
-	width: 95%;
-	display: block;
-	margin: 0 auto;
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#site_title {
+  text-align: center;
+  font-size: 10em;
+  font-family: monospace;
+  margin: 0;
 }
 
 #menu {
@@ -33,22 +40,23 @@ h1 {
 	border-bottom: 2px solid black;
 }
 
+#br {
+	height: 25px;
+	width: 95%;
+	/*border-top: 3px dotted gray;*/
+	margin: 0 auto;
+}
+
 ul {
 	/*yeah I don't know why but web browsers add this extra 40px (1em)*/
 	/*this is the only way for this to be centered or something*/
 	margin-left: -40px;
 }
 
-#title {
-	font-size: 1.5em;
-}
-
-#info {
-	position: relative;	
-	width: 45%;
-	text-align: left;
-	margin-right: 5%;
-	/*font-family: ;*/
+#comic {
+	width: 95%;
+	display: block;
+	margin: 0 auto;
 }
 
 #nav {
@@ -85,14 +93,19 @@ ul {
 	/*margin-left: 20px;*/
 }
 
-li {
-	-webkit-transition: 0.5s;
-	-moz-transition: 0.5s;
-	-o-transition: 0.5s;
-	transition: 0.5s;
+#entry {
+	margin-left: 45px;
 }
 
-a {
-	text-decoration: none;
-	color: black;
+#entry_title {
+	font-size: 2em;
+	font-family: monospace;
+}
+
+#info {
+	position: relative;	
+	width: 45%;
+	text-align: left;
+	margin-right: 5%;
+	/*font-family: ;*/
 }
