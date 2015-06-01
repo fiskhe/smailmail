@@ -1,0 +1,42 @@
+#title {
+	font-size: 5em;
+	text-align: center;
+	font-family: monospace;
+	border-bottom: 3px dotted gray;
+	color: darkgray;
+}
+
+.profpic {
+	width: 100px;
+	border-radius: 52px;
+	border: 2px solid gray;
+	margin: 0 auto;
+	display: block;
+}
+
+.person {
+	display: inline-block;
+	width: 30%;
+	margin: 1.5%;
+	/*border-left: 2px dotted black;*/
+	/*border-right: 2px dotted black;*/
+	/*background-color: orange;*/
+}
+
+#peoples {
+	width: 75%;
+	margin: 0 auto;
+	/*background-color: blue;*/
+}
+
+h2 {
+	font-family: monospace;
+	font-size: 2em;
+	text-align: center;
+}
+
+.bio {
+	/*width: inherit;*/
+	height: 250px;
+	/*background-color: orange;*/
+}
